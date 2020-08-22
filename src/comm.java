@@ -25,7 +25,7 @@ public class comm {
     }
 
     public void present() {
-        System.out.println("Username: " + userName);
+        System.out.println("-------------------\nUsername: " + userName);
 
         System.out.print("Saved Locations: ");
         for (int i = 0; i < loc.size(); i++) {
